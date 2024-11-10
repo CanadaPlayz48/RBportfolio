@@ -1,0 +1,84 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.title{
+    background-color: rgb(186, 0, 0);
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.title-image {
+    filter: brightness(0) invert(1);
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+#top {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.4);
+}
+
+.Jenson {
+    background-color: #c90000; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Jenson:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(182, 0, 0);
+  }
+
+.Brawn {
+    background-color: #0a00c3;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.Brawn:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 6, 194);
+
+  }
+
+  a {
+    text-decoration: none;
+    color:#ffffff;
+  }
