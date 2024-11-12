@@ -1,16 +1,21 @@
+/* Font Change */
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Centering Headings */
 h2, h3, h4 {
     text-align: center;
 }
+
+/*List Styling*/
 ul {
     list-style: none;
     text-align: center;
     padding-left: 0;
 }
 
+/* Header Section Formatting */
 .title{
     background-color: rgb(186, 0, 0);
     color:white;
@@ -18,16 +23,7 @@ ul {
     text-align: center;
 }
 
-.title-image {
-    filter: brightness(0) invert(1);
-    padding-bottom: 0;
-    padding-top: 10px;
-}
-
-#top {
-    text-align: center;
-}
-
+/* Main Section formatting */
 .container {
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
@@ -38,8 +34,9 @@ ul {
     box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.4);
 }
 
+/* Button Formatting */
 .Jenson {
-    background-color: #c90000; /* Green */
+    background-color: #c90000;
     border: none;
     color: white;
     padding: 12px 32px;
@@ -78,7 +75,8 @@ ul {
 
   }
 
-  a {
+/* Link Formatting */
+  .Bton {
     text-decoration: none;
     color:#ffffff;
   }

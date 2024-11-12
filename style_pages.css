@@ -1,0 +1,71 @@
+/* Fonts */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Back Button Formatting */
+.backButton {
+    background-color: #9f0000;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  
+  .backButton:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(175, 0, 0);
+  }
+
+  /* Button Link Formatting */
+  .Back {
+    text-decoration: none;
+    color:#ffffff;
+  }
+
+  /* Top Section Formatting */
+  .titleT{
+    background-color: rgb(180, 0, 0);
+    color:white;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.titleT-image {
+    filter: brightness(0) invert(1);
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+/* Middle Section Formatting */
+.container {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.4);
+}
+
+/* Logo Section Formatting */
+.Logos {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.4);
+}
+/* List */
+.CompList {
+    text-align: left;
+}
