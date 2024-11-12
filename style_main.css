@@ -3,6 +3,21 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+html {
+    font-size: 16px;
+  }    
+
+  @media (min-width: 768px) {
+    h1, h2, h3, p {
+      font-size: 1.25rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    h1, h2, h3, p {
+      font-size: 1.5rem;
+    }
+  }      
+
 /* Centering Headings */
 h2, h3, h4 {
     text-align: center;
@@ -72,11 +87,62 @@ ul {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 6, 194);
+  }
 
+  .Feedback {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 8, 255);
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.Feedback:hover {
+    background-color: #0300aa;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 6, 194);
   }
 
 /* Link Formatting */
-  .Bton {
+.Bton {
     text-decoration: none;
     color:#ffffff;
+  }
+.Bton2 {
+    text-decoration: none;
+    color:#1a00b0;
+}
+.Bton:hover {
+    text-decoration: none;
+    color:#000000;
+  }
+.Bton2:hover {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.Bottom {
+    background-color: rgb(186, 0, 0);
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    background-color: #0a00c3;
+    color:#ffffff;
+    padding: 0px 0px 10px 0px;
+    border-left-style: solid;
+    border-right-style: solid;
   }
