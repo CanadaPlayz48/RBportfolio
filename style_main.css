@@ -142,9 +142,9 @@ ul {
     flex: 50%;
     background-color: #0a00c3;
     color:#ffffff;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 10px 10px 10px;
     border-left-style: solid;
-    border-right-style: solid;
+    border-right-style: solid
   }
 
   table {
@@ -160,4 +160,12 @@ ul {
   
 th {
   border: 2px solid;
+}
+
+#GH {
+  color:#c4b9ff;
+}
+
+#GH:hover {
+  color:#ffffff;
 }
