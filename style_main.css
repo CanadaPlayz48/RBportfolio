@@ -89,7 +89,7 @@ ul {
     border: 2px solid rgb(0, 6, 194);
   }
 
-  .Feedback {
+  .Feedback, #btn-alert {
     background-color: #ffffff;
     border: none;
     color: rgb(0, 8, 255);
@@ -103,7 +103,7 @@ ul {
     margin: 10px;
 }
 
-.Feedback:hover {
+.Feedback:hover, #btn-alert:hover {
     background-color: #0300aa;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 6, 194);
@@ -122,7 +122,7 @@ ul {
     text-decoration: none;
     color:#000000;
   }
-.Bton2:hover {
+.Bton2:hover, #btn-alert:hover {
     text-decoration: none;
     color:#ffffff;
 }

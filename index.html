@@ -6,6 +6,7 @@
     <title>Homepage</title>
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/vkgG41v/RB-Portfolio-Logo.png">
     <link href="style_main.css" rel="stylesheet" type="text/css" />
+    <script defer src="zmain.js"></script>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
         <div class="container">
             <section id="Preface">
                 <!--Opening-->
-                <h2>Welcome!</h2>
+                <h2 id="timeBasedMessage">hey</h2>
                 <p>This is a website containing my logo design portfolio.</p>
                 <p>This portfolio website will be a collection of <strong>my logo designs!</strong></p>
                 <a href="https://ibb.co/b63t5z6"><img src="https://i.ibb.co/nw0pMzw/Canada-Playz48-logo.png" alt="Canada-Playz48-logo" width="100px"></a>
@@ -29,12 +30,12 @@
                 <h2>Logo Designs</h2>
                 <h3>Logo Design Categories:</h3>
                 <ul>
-                    <li><button type="button" class="Jenson">
+                    <li><button type="button" class="Jenson" type="button">
                         <a href="complogos.html" class="Bton">Company Logos</a>
                         </button>
                     </li>
-                    <li><button class="Brawn">
-                        <a href="perslogos.html" class="Bton">Miscellaneous Logos</a>
+                    <li><button class="Brawn"type="button">
+                        <a href="perslogos.html" class="Bton" >Miscellaneous Logos</a>
                     </button>
                     </li>
                 </ul>
@@ -48,6 +49,7 @@
                     <p>I am a Formula 1 fan and an aviation enthusiast.</p>
                     <p>See my GitHub ReadMe File for more:</p>
                     <a href="https://github.com/CanadaPlayz48/CanadaPlayz48/blob/main/README.md"id="GH">My GitHub ReadMe File</a>
+                    <br><button type="button" id="btn-alert" onclick="bioAlert()">Test Button</button>
                 </div>
                 <div class="column">
                     <h2>Contact Me</h2>
@@ -81,9 +83,16 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <h2>JS Numbered List</h2>
+            <ol id="numbers">
+
+            </ol>
+        </div>
     </main>
     <footer class="Bottom">
-        &copy; 2024 Radzil Bunag
+        <p>&copy; Radzil Bunag <span id="FYear"></span></p>
+        <p>All rights reserved.</p>
         <p>
             <a href="https://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
